@@ -9,7 +9,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Style */
+/* Style - Header */
 .menu {
     display: flex;
     justify-content: space-between;
@@ -70,6 +70,47 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+/* Style - Main */
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 56px 8px 0;
+    align-items: center;
+}
+
+.content__logo {
+    height: 56px;
+}
+
+.content__search {
+    margin-top: 18px;
+    width: 100%;
+    max-width: 636px;
+    padding: 7px 10px 6px 20px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.87);
+    background: transparent;
+    border-radius: 25px;
+    border: 1px solid #dadce0;
+    outline: 0;
+}
+
+.content__search:focus {
+    border: 1px solid #4285f4;
+}
+
+.content__offer {
+    margin-top: 24px;
+    font-size: 13px;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+.content__offer a {
+    text-decoration: none;
+    color: #4285f4;
 }
 
 
